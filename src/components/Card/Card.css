@@ -1,80 +1,90 @@
 .card {
-	background-color: white;
-	color: #272727;
-	padding: 20px;
-	border-radius: 10px;
-	border: 0px;
-	border-color: tomato;
-	border-style: solid;
-	transition: 200ms;
+  background-color: white;
+  color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px;
+  border-color: tomato;
+  border-style: solid;
+  transition: 200ms;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 600px;
 }
 
 .card:hover {
-	transition: 200ms;
-	border: 3px;
-	border-color: tomato;
-	border-style: solid;
+  transition: 200ms;
+  border: 3px;
+  border-color: tomato;
+  border-style: solid;
 }
 
 .card-header {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .profile {
-	width: 2.5rem;
-	height: 2.5rem;
-	background-color: tomato;
-	border-radius: 50%;
-	margin: 10px;
-	font-size: 20pt;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: tomato;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
 }
 
 .letter {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 .card-title-group {
-	justify-content: center;
+  justify-content: center;
 }
 
 .card-title {
-	flex: 0.5;
-	font-size: large;
-	margin-bottom: 0;
-	margin-top: 0;
+  flex: 0.5;
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .card-date {
-	flex: 0.3;
-	font-size: small;
-	margin-top: 0;
+  flex: 0.3;
+  font-size: small;
+  margin-top: 0;
 }
 
 .card-image {
-	border-radius: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card-like-icon {
-	height: 25px;
+  height: 25px;
 }
 
 .card-text {
-	width: 350px;
-	font-size: medium;
+  font-size: medium;
+  line-height: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .card-like-bar {
-	display: flex;
-	align-items: center;
-	margin-top: 20px;
-	justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
 .like-text {
-	font-size: small;
-	margin-left: 10px;
+  font-size: small;
+  margin-left: 10px;
 }
