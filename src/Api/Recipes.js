@@ -10,6 +10,7 @@ export const Recipes = [
       'Hamuru oklava yardımı ile çok ince ve çok kalın olmayacak şekilde (yaklaşık yarım cm kalınlığında) açınız.',
       'Açtığımız hamuru bıçak yardımı ile iki cm genişliğinde uzun parçalara bölün (resimde ki gibi )ve kabarması için bol, kızgın yağda kızartın.Deneyecek olanlara şimdiden afiyet olsun 😋😋😋.',
     ],
+    isLiked: true,
   },
   {
     title: 'Tek Başına Doyuran Tavuklu Şehriye Salatası Tarifi Yapılışı',
@@ -25,6 +26,7 @@ export const Recipes = [
       'Suyu süzülen arpa şehriyemizi uygun bir karıştırma kabı içerisine alalım ve üzerine göğüs eti, konserve mısır, doğradığımız kırmızı biber ve turşu, dereotu, limon suyu, zeytinyağı ve tuzu da ekleyerek güzelce karıştıralım.',
       'Ardından salatamızı uygun bir servis tabağına alıp üzerini limon dilimleri ile süsleyerek servis edelim. Afiyet olsun!',
     ],
+    isLiked: false,
   },
   {
     title: 'Lezzetli Ve Pratik Kaşık Tatlısı Tarifi Yapılışı',
@@ -39,6 +41,7 @@ export const Recipes = [
       'Supangle için 750 ml süt, 2 yemek kaşığı mısır nişastası, 1 yemek kaşığı un, 3 yemek kaşığı toz şeker ve 3 yemek kaşığı kakaoyu iyice çırpıp pişiriyoruz.',
       'Pişen supangleyi ocaktan alıp muhallebinin üzerine ekleyip kakao ve çikolata ile süslüyoruz. Afiyet olsun 🥰.',
     ],
+    isLiked: true,
   },
   {
     title: 'Saray Sarması',
@@ -56,6 +59,7 @@ export const Recipes = [
       'Kestiğimiz bir dilimi düzgünce ve yavaşça spatula ile rulo şeklinde saralım ve tepsinin tabanında kalan hindistan cevizini üzerine yanlarına serpelim.',
       'Bu şekilde bütün dilimleri hazırlayıp servis tabağına alalım ve üzerini dilediğimiz gibi süsleyelim. Deneyecek arkadaşlarıma afiyet olsun ❣️',
     ],
+    isLiked: true,
   },
   {
     title: 'Kebab',
@@ -71,5 +75,6 @@ export const Recipes = [
       'Limonlu su içerisinde beklettiğimiz mantarlarımızı da doğrayalım ve tavamıza ilave ederek karıştıralım. Ardından tavamızın kapağını kapatalım ve mantarlar yumuşayana kadar ara ara karıştırarak pişirelim. Daha sulu etli mantar sote yapmak için az daha sıcak su ilave edebilirsiniz.',
       'Yemeğimiz güzelce piştikten sonra tuzumuzu da ekleyelim, 1-2 tur daha karıştırarak ocağı kapatalım. Etli mantar sotemiz servise hazır. Afiyet olsun.',
     ],
+    isLiked: false,
   },
 ];

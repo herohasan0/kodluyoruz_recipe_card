@@ -1,13 +1,11 @@
 import React from 'react';
 import './Card.css';
-import food from '../../assets/food.jpg'; // Tell webpack this JS file uses this image
 import heartOutline from '../../assets/heart-outline.png'; // Tell webpack this JS file uses this image
 import heartFill from '../../assets/heart-fill.png'; // Tell webpack this JS file uses this image
 
 export default function Card(props) {
   return (
     <div className="card">
-      {console.log(typeof props.Description)}
       <div className="card-header">
         <div className="profile">
           <span className="letter">{props.Author[0]}</span>

@@ -1,10 +1,8 @@
 import './App.css';
 import Card from './components/Card/Card';
-import food from './assets/food.jpg'; // Tell webpack this JS file uses this image
 import { Recipes } from '../src/Api/Recipes';
 
 function App() {
-  const isLiked = false;
   const recipeItems = Recipes;
 
   return (
@@ -19,6 +17,7 @@ function App() {
             Img={item.img}
             Description={item.description}
             Likecount={item.likeCount}
+            liked={item.isLiked}
           />
         ))}
       </header>
