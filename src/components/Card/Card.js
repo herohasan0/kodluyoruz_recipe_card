@@ -21,7 +21,7 @@ export default function Card(props) {
       <div className="card-text">
         <ol>
           {props.Description &&
-            props.Description.map((item) => <li>{item}</li>)}
+            props.Description.map((item, index) => <li key={index}>{item}</li>)}
         </ol>
       </div>
       <div className="card-like-bar">
